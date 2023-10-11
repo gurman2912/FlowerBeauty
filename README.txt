@@ -40,4 +40,8 @@ bacause i didn't link it properly into layout...solve it and tested!!!!...workin
 1404
 make changes into index view file....tested...okk!!!
 
+1414
+add IActionResult method for welcome massage into controller and add view file into flowerwolrd view folder......
+tested......
+
 
