@@ -30,4 +30,7 @@ then tested.... it's working........
 create controller into controllers folder....and follow the toturial to complete assignment.... and make chanages into new created 
 controller......tested!!....it's working....
 
+1231 
+follow toturial.... and add code in flowercontroller....tested......okk!!!!
+
 

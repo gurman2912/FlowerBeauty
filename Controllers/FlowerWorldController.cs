@@ -11,5 +11,16 @@ namespace FlowerBeauty.Controllers
         {
             return "This is my default action....";
         }
+
+        // GET: /FlowerWorld/Welcome/ 
+
+        /*public string Welcome()
+        {
+            return "This is the Welcome action method...";
+        }*/
+        public string Welcome(string name, int ID = 1)
+        {
+            return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+        }
     }
 }
