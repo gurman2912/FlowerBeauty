@@ -33,4 +33,8 @@ controller......tested!!....it's working....
 1231 
 follow toturial.... and add code in flowercontroller....tested......okk!!!!
 
+1241
+add folder into views and create view into that folder......add code.....then tested....got error
+bacause i didn't link it properly into layout...solve it and tested!!!!...working......
+
 
