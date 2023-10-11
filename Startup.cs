@@ -1,3 +1,5 @@
+using FlowerBeauty.Data;   //add using statements for data
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
