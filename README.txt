@@ -66,4 +66,7 @@ Add a connection string to the appsettings.json file.......
 
 then add scaffold flower page....
 
+1759
+add Migration InitialCreate and update database
+
 
