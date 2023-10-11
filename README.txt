@@ -57,5 +57,8 @@ then create Data folder into  flowerBeauty project and into Data folder create c
 1726
 add using statements on the top of startup file......
 
+1743
+I got error while adding code in Startup.ConfigureServices, because I close currly braces of startup class after the
+ConfigureServices code.......
 
 
