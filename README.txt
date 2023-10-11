@@ -3,3 +3,6 @@ Create a project with name of flowerBeatuy.....tested it!!!
 
 1002
 make changes in index file and test it.....
+
+1006 
+create a github repo and upload this project on github publically.....
