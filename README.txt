@@ -21,20 +21,23 @@ After lots of try to solve this error I take break.....and have lunch.....
 1150
 After break try to solve error........
 
-1203
+1303
 yehhh!!!!.....solve the problem.... I didn't create public function for about page in 
 homecontroller.cs page that's why I got error-> this page is not found..... 
 then tested.... it's working........
 
-1219
+1319
 create controller into controllers folder....and follow the toturial to complete assignment.... and make chanages into new created 
 controller......tested!!....it's working....
 
-1231 
+1331 
 follow toturial.... and add code in flowercontroller....tested......okk!!!!
 
-1241
+1341
 add folder into views and create view into that folder......add code.....then tested....got error
 bacause i didn't link it properly into layout...solve it and tested!!!!...working......
+
+1404
+make changes into index view file....tested...okk!!!
 
 
