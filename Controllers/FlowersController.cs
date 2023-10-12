@@ -20,8 +20,16 @@ namespace FlowerBeauty.Controllers
         }
 
         // GET: Flowers
-        public async Task<IActionResult> Index()
+        //part-7 update index code with search string method
+        public async Task<IActionResult> Index(string searchString)
         {
+            var flowers = from f in _context.Flower
+                          select f;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                flowers = flowers.Where(s => s.Name.Contains(searchString));
+            }
             return View(await _context.Flower.ToListAsync());
         }
 

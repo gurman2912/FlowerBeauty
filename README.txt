@@ -73,6 +73,13 @@ add Migration InitialCreate and update database.........
 after having dinner I create seeddata file.......Add attributes and data......
 
 2305
-change code of program.cs file.........
+change code of program.cs file.........tested!!!!
+
+2330
+part6 -add data annotations and covert ReleaseDate as Release data into models flower file ........tested!!!!
+
+1244
+part-7 update index code with search string method..........
+
 
 
