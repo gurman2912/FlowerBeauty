@@ -1,0 +1,28 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+/*home style*/
+body {
+    background-color: lightblue;
+    font-family: 'Young Serif', sans-serif;
+}
+.text-center {
+    margin-top:80px;
+}
+/* about page style*/
+.about {
+    text-align:center;
+    margin-top:20px
+}
+
+.about-p {
+    margin:50px;
+}
+/*footer style*/
+.footer{
+    text-align:center;
+    background-color:#ffffff;
+}
+.container{
+    color:#000000;
+}

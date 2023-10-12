@@ -103,3 +103,7 @@ It's working but apply wrong regular expressions on description and store locati
 1234
 After create and apply right regular expression, I test it.....now it's working........
 
+1444
+I find difficulty  to change default color and font but after some tries I did this.....
+change default tamplete color and font and add style sheet for this..........link style sheet in layout page..
+
