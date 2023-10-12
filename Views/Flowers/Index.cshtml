@@ -10,7 +10,8 @@
     <a asp-action="Create">Create New</a>
 </p>
 
-<form asp-controller="Flowers" asp-action="Index">
+<!--add form for search bar-->
+<form asp-controller="Flowers" asp-action="Index" method="get">
     <p>
         Name: <input type="text" name="SearchString" />
         <input type="submit" value="Filter" />
