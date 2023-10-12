@@ -79,7 +79,10 @@ change code of program.cs file.........tested!!!!
 part6 -add data annotations and covert ReleaseDate as Release data into models flower file ........tested!!!!
 
 1244
-part-7 update index code with search string method..........
+part-7 update index code with search string method..........tested!!!!
+but it's not working.......find problem and solve it......I didn't make changes in return method......that's why
+I had problem.....after change return method.........tested!!!!.........It's working.....
+then add form into views/Flowers/index.cshtml file for search bar........tested!!!!....
 
 
 
