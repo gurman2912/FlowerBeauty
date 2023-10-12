@@ -31,9 +31,8 @@ namespace FlowerBeauty.Models
 
 
 
-        [RegularExpression(@"^[A-Za-z0-9\s.,'""()! ? &/ -]+$")]
+        [StringLength(200, MinimumLength = 10)]
         [Required]
-        [StringLength(400)]
         public string Description { get; set; }
 
 
