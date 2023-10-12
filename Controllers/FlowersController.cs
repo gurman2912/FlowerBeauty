@@ -20,18 +20,36 @@ namespace FlowerBeauty.Controllers
         }
 
         // GET: Flowers
-        //part-7 update index code with search string method
-        public async Task<IActionResult> Index(string searchString)
+        //part-7 update index code with search string method and by category filter method
+        public async Task<IActionResult> Index(string flowerCategory, string searchString)
         {
-            var flowers = from m in _context.Flower
-                          select m;
+            // Use LINQ to get list of Category.
+            IQueryable<string> CategoryQuery = from m in _context.Flower
+                                            orderby m.Category
+                                            select m.Category;
 
-            if (!String.IsNullOrEmpty(searchString))
+            var flowers = from m in _context.Flower
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString))
             {
                 flowers = flowers.Where(s => s.Name.Contains(searchString));
             }
-            return View(await flowers.ToListAsync());
+
+            if (!string.IsNullOrEmpty(flowerCategory))
+            {
+                flowers = flowers.Where(x => x.Category == flowerCategory);
+            }
+
+            var flowerCategoryVM = new FlowerCategoryViewModel
+            {
+                Category = new SelectList(await CategoryQuery.Distinct().ToListAsync()),
+                Flowers = await flowers.ToListAsync()
+            };
+
+            return View(flowerCategoryVM);
         }
+        
 
         // GET: Flowers/Details/5
         public async Task<IActionResult> Details(int? id)
