@@ -1,6 +1,6 @@
 # Project Overview
 "Flower Beauty" is a web application that focuses on showcasing and selling various flower-related products.
-The project aims to create a user-friendly and visually appealing platform where customers can explore a wide range of flower products, learn about their details,and make purchases. It's a platform for flower enthusiasts, gift shoppers, and individuals who appreciate the beauty of flowers.The project is organized into multiple parts, including model classes for flower products, Razor Pages for views and user interactions, a database context for data management, and custom CSS for styling.
+The project aims to create a user-friendly and visually appealing platform where customers can explore a wide range of flower products, learn about their details. It's a platform for flower enthusiasts, gift shoppers, and individuals who appreciate the beauty of flowers.The project is organized into multiple parts, including model classes for flower products, Razor Pages for views and a database context for data management, and custom CSS for styling.
 
 # Technologies Used
 Your "Flower Beauty" project is built using ASP.NET Core 3.1, and it incorporates various technologies and tools to create a fully functioning web application. 
